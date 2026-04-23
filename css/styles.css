@@ -10,9 +10,13 @@ header {
     color: #000;
  }
   
-.site-nav a:hover {
+.site-nav a:hover,
+.site-nav a:focus {
     color: blue;
  }
- .contact-info a:hover {
+ 
+
+ .contact-info a:hover,
+ .contact-info a:focus {
     color: red;
  }
